@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,15 +16,25 @@
         'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
-    body {
-      background: linear-gradient(135deg, #f0f4ff, #d9e6ff);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-      color: #1e1e2f;
-    }
+ body {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.85), rgba(245, 250, 255, 0.85)),
+    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJL5ICvjpd8aCNP2VzkSUNhyYYJvhRNSmWcw&s');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  color: #1e1e2f;
+}
+
+
+
+
+
 
     .form-container {
       background: #ffffffdd;
@@ -179,9 +190,7 @@
 
 <body>
   <div class="form-container" role="main" aria-label="Customer Feedback Form">
-    <img src="https://github.com/DM-WR-2025/DM-Customer-Feedback/blob/main/Screenshot%202025-09-16%20174401.png?raw=true" alt="Screenshot 2025‑09‑16 17:44:01">
-
-    <h1>Customer Feedback</h1>
+   <img src="https://github.com/DM-WR-2025/DM-Customer-Feedback/blob/main/Screenshot%202025-09-16%20174401.png?raw=true" alt="Screenshot 2025‑09‑16 17:44:01">
 
     <form id="feedbackForm" novalidate>
       <div class="form-group">
