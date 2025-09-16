@@ -51,9 +51,9 @@
       box-shadow: 0 30px 50px rgb(0 0 0 / 0.15);
     }
 
-    .form-container img {
-  display: block;
-  margin: 0 auto 32px auto;
+   .form-container img {
+  display: inline-block;
+  margin: 0 0 32px 0;
   width: 140px;
   filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.1));
 }
