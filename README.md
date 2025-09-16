@@ -179,7 +179,8 @@
 
 <body>
   <div class="form-container" role="main" aria-label="Customer Feedback Form">
-    <img src="https://github.com/DM-WR-2025/DM-Customer-Feedback/blob/main/dm%20new%20logo.png?raw=true" alt="DM New Logo">
+    <img src="https://github.com/DM-WR-2025/DM-Customer-Feedback/blob/main/Screenshot%202025-09-16%20174401.png?raw=true" alt="Screenshot 2025‑09‑16 17:44:01">
+
     <h1>Customer Feedback</h1>
 
     <form id="feedbackForm" novalidate>
