@@ -52,11 +52,12 @@
     }
 
     .form-container img {
-  display: inline-block;
-  margin: 0 0 32px 0;
+  display: block;
+  margin: 0 auto 32px auto;
   width: 140px;
   filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.1));
 }
+
 
 
     h1 {
