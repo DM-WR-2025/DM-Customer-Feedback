@@ -191,7 +191,7 @@
 
 <body>
   <div class="form-container" role="main" aria-label="Customer Feedback Form">
- <img src="https://github.com/DM-WR-2025/DM-Customer-Feedback/blob/main/DM_-_LOGO-removebg-preview.png?raw=true" alt="Dragon Mart Logo">
+  <img src="https://github.com/DM-WR-2025/DragonMart-WR-2025/raw/afa44c0b53fea055232ed100a0c1afedae83c149/1990.png" alt="DragonMart Logo" width="150">
 
 
 
