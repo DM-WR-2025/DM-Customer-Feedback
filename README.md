@@ -37,18 +37,17 @@
 
 
   .form-container {
-  background-color: #ffffff;
-  backdrop-filter: brightness(150%) /* this makes the backdrop brighter */;
-
-  /* reduce blur so it's crisper */
-  /* blur(10px) or even blur(5px) instead of 20px */
-  /* you might even drop blur altogether if you want totally clean */
-
+  position: relative; /* or static/flex, depending on layout */
+  background-color: #ffffff; /* pure white */
+  /* remove or lessen filters if you want pure white */
+  backdrop-filter: none;
+  /* or if you still want blur, very small */
+  /* backdrop-filter: brightness(120%) blur(5px); */
   border-radius: 24px;
   padding: 48px 36px;
   max-width: 600px;
   width: 100%;
-  box-shadow: 0 25px 45px rgba(0,0,0,0.2); /* slightly darker shadow to contrast */
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2); /* strong shadow to make white pop */
   transition: box-shadow 0.3s ease;
 }
 
