@@ -36,16 +36,17 @@
 
 
 
-    .form-container {
-      background: #ffffffdd;
-      backdrop-filter: saturate(180%) blur(20px);
-      border-radius: 24px;
-      padding: 48px 36px;
-      max-width: 600px;
-      width: 100%;
-      box-shadow: 0 20px 40px rgb(0 0 0 / 0.1);
-      transition: box-shadow 0.3s ease;
-    }
+   .form-container {
+  background: #ffffff;
+  backdrop-filter: saturate(180%) blur(20px);
+  border-radius: 24px;
+  padding: 48px 36px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15); /* brighter shadow */
+  transition: box-shadow 0.3s ease;
+}
+
 
     .form-container:hover {
       box-shadow: 0 30px 50px rgb(0 0 0 / 0.15);
