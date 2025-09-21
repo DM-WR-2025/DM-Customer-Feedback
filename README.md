@@ -1,4 +1,3 @@
-
 <html lang="en">
 
 <head>
@@ -36,7 +35,7 @@
 
 
 
-  .form-container {
+    .form-container {
   position: relative; /* or static/flex, depending on layout */
   background-color: #ffffff; /* pure white */
   /* remove or lessen filters if you want pure white */
@@ -57,13 +56,12 @@
       box-shadow: 0 30px 50px rgb(0 0 0 / 0.15);
     }
 
-   .form-container img {
+    .form-container img {
   display: inline-block;
   margin: 0 0 32px 0;
   width: 140px;
   filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.1));
 }
-
 
 
     h1 {
@@ -197,9 +195,10 @@
 
 <body>
   <div class="form-container" role="main" aria-label="Customer Feedback Form">
-  <img src="https://github.com/DM-WR-2025/DragonMart-WR-2025/raw/afa44c0b53fea055232ed100a0c1afedae83c149/1990.png" alt="DragonMart Logo" width="150">
+    <img src="https://github.com/DM-WR-2025/DragonMart-WR-2025/raw/afa44c0b53fea055232ed100a0c1afedae83c149/1990.png" alt="DragonMart Logo" width="150">
 
 
+    <h1>Customer Feedback</h1>
 
     <form id="feedbackForm" novalidate>
       <div class="form-group">
@@ -279,14 +278,14 @@
       <div class="form-group">
         <label for="purpose">Purpose of Interaction<span aria-hidden="true" style="color:#f44336;"> *</span></label>
         <select id="purpose" name="purpose" required aria-required="true">
-         <option value="" disabled selected>Select Purpose</option>
+          <option value="" disabled selected>Select Purpose</option>
           <option value="Product Purchase">Product Purchase</option>
           <option value="Complaint Handling">Complaint Handling</option>
            <option value="Information Request">Information Request</option>
            <option value="Experience Review">Experience Review</option>
             <option value="Feedback Suggestions">Feedback Suggestions</option>
            <option value="Other">Other</option>
-     </select>
+        </select>
       </div>
 
       <div class="form-group">
