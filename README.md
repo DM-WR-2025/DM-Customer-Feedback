@@ -271,12 +271,14 @@
       <div class="form-group">
         <label for="purpose">Purpose of Interaction<span aria-hidden="true" style="color:#f44336;"> *</span></label>
         <select id="purpose" name="purpose" required aria-required="true">
-          <option value="" disabled selected>Select Purpose</option>
+         <option value="" disabled selected>Select Purpose</option>
           <option value="Product Purchase">Product Purchase</option>
           <option value="Complaint Handling">Complaint Handling</option>
-          <option value="Customer Support">Customer Support</option>
-          <option value="Other">Other</option>
-        </select>
+           <option value="Information Request">Information Request</option>
+           <option value="Experience Review">Experience Review</option>
+            <option value="Feedback Suggestions">Feedback Suggestions</option>
+           <option value="Other">Other</option>
+     </select>
       </div>
 
       <div class="form-group">
