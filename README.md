@@ -191,7 +191,8 @@
 
 <body>
   <div class="form-container" role="main" aria-label="Customer Feedback Form">
-   <img src="https://github.com/DM-WR-2025/DM-Customer-Feedback/blob/main/Screenshot%202025-09-16%20174401.png?raw=true" alt="Screenshot 2025‑09‑16 17:44:01">
+  <img src="https://github.com/DM-WR-2025/DM-Customer-Feedback/blob/main/DRAGON_LOGO-removebg-preview.png?raw=true" alt="Dragon Logo">
+
 
     <form id="feedbackForm" novalidate>
       <div class="form-group">
