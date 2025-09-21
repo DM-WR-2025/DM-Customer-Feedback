@@ -36,16 +36,22 @@
 
 
 
-   .form-container {
-  background: #ffffff;
-  backdrop-filter: saturate(180%) blur(20px);
+  .form-container {
+  background-color: #ffffff;
+  backdrop-filter: brightness(150%) /* this makes the backdrop brighter */;
+
+  /* reduce blur so it's crisper */
+  /* blur(10px) or even blur(5px) instead of 20px */
+  /* you might even drop blur altogether if you want totally clean */
+
   border-radius: 24px;
   padding: 48px 36px;
   max-width: 600px;
   width: 100%;
-  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15); /* brighter shadow */
+  box-shadow: 0 25px 45px rgba(0,0,0,0.2); /* slightly darker shadow to contrast */
   transition: box-shadow 0.3s ease;
 }
+
 
 
     .form-container:hover {
